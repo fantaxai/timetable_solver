@@ -1,0 +1,433 @@
+{
+  "metadata": {
+    "semester": 2,
+    "description": "Второй семестр",
+    "days": ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+    "slots_per_day": 4,
+    "room_limit": 6
+  },
+
+  "teachers": [
+    {
+      "id": "Антонова",
+      "name": "Антонова",
+      "max_load": 12,
+      "wish_days_off": ["Вт"]
+    },
+    {
+      "id": "Дмитриенко",
+      "name": "Дмитриенко",
+      "max_load": 12,
+      "wish_days_off": ["Пн"]
+    },
+    {
+      "id": "Коваленко",
+      "name": "Коваленко",
+      "max_load": 12,
+      "wish_days_off": []
+    },
+    {
+      "id": "Морозова",
+      "name": "Морозова",
+      "max_load": 12,
+      "wish_days_off": []
+    },
+    {
+      "id": "Власова",
+      "name": "Власова",
+      "max_load": 12,
+      "wish_days_off": ["Сб"]
+    },
+    {
+      "id": "Абрамова",
+      "name": "Абрамова",
+      "max_load": 10,
+      "wish_days_off": ["Сб"]
+    },
+    {
+      "id": "Мишина",
+      "name": "Мишина",
+      "max_load": 6,
+      "wish_days_off": ["Пн"]
+    },
+    {
+      "id": "Новикова",
+      "name": "Новикова",
+      "max_load": 6,
+      "wish_days_off": ["Сб"]
+    },
+    {
+      "id": "Дроздова",
+      "name": "Дроздова",
+      "max_load": 6,
+      "wish_days_off": []
+    }
+  ],
+
+  "previous_semester": {
+    "Антонова": ["1528", "1518", "1535"],
+    "Дмитриенко": ["1511", "1532", "1529"],
+    "Коваленко": ["1543", "1530", "1544"],
+    "Морозова": ["1508", "1522"],
+    "Власова": ["1531", "1504"],
+    "Абрамова": ["1526"],
+    "Мишина": ["1503"],
+    "Новикова": ["1525"],
+    "Дроздова": ["1507"]
+  },
+
+  "groups": {
+    "1501": [
+      ["FREE", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "FREE", "OTHER"]
+    ],
+    "1502": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1503": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["FREE", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"]
+    ],
+    "1504": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["FREE", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"]
+    ],
+    "1505": [
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"]
+    ],
+    "1506": [
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "OTHER"]
+    ],
+    "1507": [
+      ["OUR", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1508": [
+      ["OUR", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OUR", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"]
+    ],
+    "1509": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OUR", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"]
+    ],
+    "1510": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"],
+      ["OUR", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "FREE"]
+    ],
+    "1511": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "FREE", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["FREE", "OTHER", "OTHER", "FREE"]
+    ],
+    "1512": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "FREE", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["FREE", "OTHER", "OTHER", "FREE"]
+    ],
+    "1513": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "FREE", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["FREE", "OUR", "OTHER", "FREE"]
+    ],
+    "1514": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "FREE", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OUR", "FREE", "FREE"]
+    ],
+    "1515": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1516": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OUR", "FREE"]
+    ],
+    "1517": [
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "FREE"]
+    ],
+    "1518": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OUR", "FREE", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1519": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OUR", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OUR", "OTHER", "FREE", "FREE"]
+    ],
+    "1520": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1521": [
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OUR", "FREE", "FREE", "FREE"]
+    ],
+    "1522": [
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OUR", "FREE", "FREE", "FREE"]
+    ],
+    "1523": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["FREE", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["FREE", "OTHER", "FREE", "FREE"]
+    ],
+    "1524": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OUR", "FREE", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["FREE", "OTHER", "OTHER", "FREE"]
+    ],
+    "1525": [
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OUR", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1526": [
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["FREE", "OTHER", "OTHER", "FREE"]
+    ],
+    "1527": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OUR", "OTHER", "OTHER", "OTHER"],
+      ["FREE", "OTHER", "OTHER", "FREE"]
+    ],
+    "1528": [
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1529": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1530": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "FREE", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "FREE"]
+    ],
+    "1531": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OUR", "FREE", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"]
+    ],
+    "1532": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["FREE", "OUR", "OTHER", "OTHER"],
+      ["OTHER", "FREE", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "FREE"]
+    ],
+    "1533": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OUR", "OTHER", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "FREE", "FREE"]
+    ],
+    "1534": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["FREE", "OTHER", "OUR", "FREE"]
+    ],
+    "1535": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "FREE", "FREE"]
+    ],
+    "1536": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "FREE"],
+      ["OTHER", "OUR", "OTHER", "OTHER"],
+      ["FREE", "OTHER", "FREE", "FREE"]
+    ],
+    "1537": [
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1538": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["FREE", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1539": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "OTHER"],
+      ["FREE", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "FREE", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OUR", "OTHER", "OTHER", "FREE"]
+    ],
+    "1540": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "OTHER"],
+      ["FREE", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "FREE"]
+    ],
+    "1541": [
+      ["OTHER", "OTHER", "FREE", "OTHER"],
+      ["OUR", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["FREE", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1542": [
+      ["OUR", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "OTHER"],
+      ["OTHER", "FREE", "OTHER", "FREE"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1543": [
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "OTHER"],
+      ["OTHER", "OTHER", "OUR", "FREE"],
+      ["OUR", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ],
+    "1544": [
+      ["OTHER", "OTHER", "OTHER", "OUR"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OUR", "OTHER", "FREE"],
+      ["FREE", "OTHER", "OTHER", "OTHER"],
+      ["OTHER", "OTHER", "FREE", "FREE"]
+    ]
+  }
+}
